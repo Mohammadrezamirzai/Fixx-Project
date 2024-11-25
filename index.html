@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FLIXX</title>
+    <link rel="stylesheet" href="./src/output.css" />
+    <link rel="stylesheet" href="./src/input.css" />
+    <script src="./js/script.js" ></script>
+  </head>
+  <body class="text-white bg-black">
+    <!--Navbar-->
+    <nav class="">
+       
+      <a href="" class="font-bold text-2xl">FLIXX</a>
+      <div class="flex space-x-6 text-xl">
+        <a href="index.html" class="nav-link">Movies</a
+        ><a href="tvshows.html" class="nav-link">Tv Shows</a>
+      </div>
+    </nav>
+
+    <!--Now playing area-->
+    <div
+      class="bg-now-playing bg-center bg-cover text-white font-bold text-3xl text-center py-20">
+      NOW PLAYING
+    </div>
+
+    <!--Searching section-->
+    <div class="bg-[#020b13] flex item-center justify-center space-x-4 py-24">
+      <input
+        class="bg-transparent border rounded-md pl-4 placeholder-white w-2/5"
+        type="text"
+        placeholder="Enter search item" />
+      <button class="searchbtn">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          x="20px"
+          y="0px"
+          width="20"
+          height="20"
+          viewBox="0 0 50 50">
+          <path
+            d="M 21 3 C 11.601563 3 4 10.601563 4 20 C 4 29.398438 11.601563 37 21 37 C 24.355469 37 27.460938 36.015625 30.09375 34.34375 L 42.375 46.625 L 46.625 42.375 L 34.5 30.28125 C 36.679688 27.421875 38 23.878906 38 20 C 38 10.601563 30.398438 3 21 3 Z M 21 7 C 28.199219 7 34 12.800781 34 20 C 34 27.199219 28.199219 33 21 33 C 13.800781 33 8 27.199219 8 20 C 8 12.800781 13.800781 7 21 7 Z"></path>
+        </svg>
+      </button>
+    </div>
+
+    <!--popular movie text-->
+    <div class="text-2xl font-bold bg-[#020b13] text-center py-8">
+      POPULAR MOVIES
+    </div>
+    <!--Grid section-->
+
+    <div id="movie-pop" class="gridsection"></div>
+
+    <!--footer-->
+    <footer>
+      <a href="" class="hover:text-cyan-600 font-bold text-3xl">FLIXX</a>
+      <a href="" class="hover:text-cyan-600 font-bold">Faq</a>
+      <a href="" class="hover:text-cyan-600 font-bold">Help Center</a>
+      <div class="flex items-center space-x-4">
+        <a href=""> <img src="./images/facebook.svg" alt="" /></a>
+        <a href=""> <img src="./images/instagram.svg" alt="" /></a>
+        <a href=""> <img src="./images/twitter.svg" alt="" /></a>
+      </div>
+    </footer>
+  </body>
+</html>

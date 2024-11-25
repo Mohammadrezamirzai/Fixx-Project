@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "build": " tailwindcss -i ./src/input.css -o ./src/output.css ",
+    "watch": "tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.14"
+  },
+  "dependencies": {
+    "postcss": "^8.4.49",
+    "postcss-cli": "^11.0.0"
+  }
+}

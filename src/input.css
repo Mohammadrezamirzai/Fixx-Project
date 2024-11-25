@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.gridsection {
+  @apply bg-[#020b13] px-24 pb-20 space-y-10
+  md:space-y-0 md:gap-x-8 md:gap-y-12 md:grid md:grid-cols-2
+  lg:grid-cols-3 xl:grid-cols-4;
+}
+.movie-showdetails-bottom {
+  @apply bg-[#020b13] px-6 py-8 flex flex-col space-y-6 justify-center;
+}
+.movie-showdetails-top {
+  @apply bg-[#020b13] p-10 font-bold text-base flex flex-col space-y-8 items-center justify-center md:flex-row md:space-y-0 md:space-x-16;
+}
+
+.show-showdetails-top {
+  @apply bg-[#020b13] p-10 font-bold text-base flex flex-col space-y-8 items-center justify-center md:flex-row md:space-y-0 md:space-x-16;
+}
+.show-showdetails-bottom {
+  @apply bg-[#020b13] px-6 py-8 flex flex-col space-y-6 justify-center;
+}
+
+.card {
+  @apply flex flex-col items-center p-4 bg-[#1B177C]  hover:scale-105 duration-300 text-center rounded-md;
+}
+.searchbtn {
+  @apply duration-300 bg-yellow-400 border border-yellow-400 py-4 px-10 rounded-md hover:bg-transparent;
+}
+.flix-btn {
+  @apply p-3 font-bold border border-yellow-500 rounded-md hover:bg-yellow-500 hover:text-black duration-200;
+}
+
+@layer base {
+  nav {
+    @apply max-w-7xl mx-auto bg-black flex items-center justify-between py-8 px-6;
+  }
+  footer {
+    @apply bg-black flex items-center justify-around py-16 text-2xl;
+  }
+}
